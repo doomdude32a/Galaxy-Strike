@@ -55,3 +55,63 @@ Die Umsetzung erfolgt im kollaborativen Team unter Einsatz von GitHub und regelm
 | 1.10     | Spiel startet, HUD aktiviert          | Spiel beginnt                                                | HUD zeigt laufend aktuelle Werte zu Gesundheit, Munition und aktiver Waffe                     | US-10             |
 | 1.11     | Spieler im Waffen-Shop                | Spieler initiiert den Kauf einer zusätzlichen Waffe          | Preis wird von der In-Game-Währung abgezogen; Waffe erscheint im Inventar                       | US-11             |
 | 1.12     | Spieler erzielt Erfolge im Kampf      | Spieler besiegt Gegner bzw. erreicht ein Ziel                | Punkte werden korrekt addiert und der Fortschritt im Punktesystem aktualisiert                  | US-12             |
+
+## 2. Planen
+
+| AP-№  | Frist       | Zuständig | Beschreibung                                                                                             | Zugehörige US | Geplante Zeit |
+|-------|-------------|-----------|----------------------------------------------------------------------------------------------------------|---------------|---------------|
+| 1.A   | 15.11.2024  | Marku     | **Bewegungssystem** (Vorwärts, Rückwärts, Seitwärts, Sprinten, Springen) implementieren                  | US-1          | 60 min        |
+| 2.A   | 15.11.2024  | Jashari   | **First Person Kamera** einrichten und Maussteuerung für eine präzise Sichtfeldanpassung implementieren | US-2          | 60 min        |
+| 3.A   | 20.11.2024  | Angelov   | **Realistische Physik** (Schwerkraft, Kollisionen) umsetzen, damit Interaktionen glaubwürdig ablaufen   | US-3          | 90 min        |
+| 4.A   | 22.11.2024  | Marku     | **Level-Design** mit Hindernissen, Deckungen und offenen Bereichen erstellen                            | US-4          | 120 min       |
+| 5.A   | 25.11.2024  | Jashari   | **Waffenmodelle** (z. B. Pistole, Gewehr) entwickeln und unterschiedliche Eigenschaften definieren       | US-5          | 90 min        |
+| 6.A   | 25.11.2024  | Angelov   | **Schießen und Nachladen** inkl. Mündungsfeuer und Soundeffekte implementieren                          | US-6          | 90 min        |
+| 7.A   | 29.11.2024  | Marku     | **Gegner-KI mit Lebenspunkten** entwickeln, um Trefferfolge nachvollziehbar zu machen                   | US-7          | 120 min       |
+| 8.A   | 29.11.2024  | Jashari   | **Gegner greifen den Spieler an** – Angriffsverhalten programmieren und Triggerbereiche festlegen       | US-8          | 60 min        |
+| 9.A   | 02.12.2024  | Angelov   | **Spieler-Gesundheit**: Treffer erfassen und Gesundheitswert dynamisch anpassen                        | US-9          | 60 min        |
+| 10.A  | 05.12.2024  | Marku     | **HUD**: Anzeigen von Gesundheit, Munition und aktiver Waffe realisieren                                | US-10         | 60 min        |
+| 11.A  | 05.12.2024  | Jashari   | **Waffen kaufen**: Kaufmechanik und Abzug von In-Game-Währung implementieren                            | US-11         | 90 min        |
+| 12.A  | 06.12.2024  | Angelov   | **Punktesystem**: Punktevergabe bei Gegnerabschüssen und Zielerreichung, Fortschritt tracken           | US-12         | 60 min        |
+| 13.A  | 13.12.2024  | Team      | **Abschließende Tests und Debugging**: Integrationstests aller Module                                  | -             | 120 min       |
+| 14.A  | 20.12.2024  | Team      | **Projektdokumentation** fertigstellen und finale Übergabe vorbereiten                                 | -             | 180 min       |
+
+
+
+## 4. Realisieren
+
+| **AP-№** | **Datum**    | **Zuständig**        | **Geplante Zeit** | **Tatsächliche Zeit** |
+|----------|-------------|-----------------------|-------------------|-----------------------|
+| 1.A      | 16.11.2024  | Marku                | 60 min            | 60 min               |
+| 2.A      | 16.11.2024  | Jashari              | 60 min            | 50 min               |
+| 3.A      | 20.11.2024  | Angelov              | 90 min            | 75 min               |
+| 4.A      | 25.11.2024  | Marku                | 120 min           | 110 min              |
+| 5.A      | 25.11.2024  | Jashari              | 90 min            | 90 min               |
+| 6.A      | 30.11.2024  | Angelov              | 90 min            | 80 min               |
+| 7.A      | 05.12.2024  | Marku                | 120 min           | 110 min              |
+| 8.A      | 05.12.2024  | Jashari              | 60 min            | 60 min               |
+| 9.A      | 10.12.2024  | Angelov              | 60 min            | 70 min               |
+| 10.A     | 10.12.2024  | Marku                | 60 min            | 55 min               |
+| 11.A     | 15.12.2024  | Jashari              | 90 min            | 85 min               |
+| 12.A     | 15.12.2024  | Angelov              | 60 min            | 65 min               |
+| 13.A     | 20.12.2024  | Team                 | 120 min           | 130 min              |
+| 14.A     | 21.12.2024  | Team                 | 180 min           | 200 min              |
+
+## 5. Kontrollieren
+
+### 5.1 Testprotokoll
+
+| **TC-№** | **Datum**    | **Resultat** | **Tester**  | **Verknüpfte US** |
+|----------|-------------|--------------|------------|-------------------|
+| 1.1      | 20.12.2024  | OK           | Marku      | US-1              |
+| 2.1      | 20.12.2024  | OK           | Jashari    | US-2              |
+| 3.1      | 20.12.2024  | OK           | Angelov    | US-3              |
+| 4.1      | 20.12.2024  | OK           | Marku      | US-4              |
+| 5.1      | 20.12.2024  | OK           | Jashari    | US-5              |
+| 6.1      | 20.12.2024  | OK           | Angelov    | US-6              |
+| 7.1      | 20.12.2024  | OK           | Marku      | US-7              |
+| 8.1      | 20.12.2024  | OK           | Jashari    | US-8              |
+| 9.1      | 20.12.2024  | OK           | Angelov    | US-9              |
+| 10.1     | 20.12.2024  | OK           | Marku      | US-10             |
+| 11.1     | 20.12.2024  | OK           | Jashari    | US-11             |
+| 12.1     | 20.12.2024  | OK           | Angelov    | US-12             |
+
