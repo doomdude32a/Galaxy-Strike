@@ -94,7 +94,7 @@ Die Umsetzung erfolgt im kollaborativen Team unter Einsatz von GitHub und regelm
 
 ## 3. Entscheiden 
 
-## 4. Realisieren
+Anstatt eine gewöhnliche Nachladelogik mit unendlicher Munition zu verwenden, haben wir Munitionskisten in der Spielwelt platziert, die Spieler einsammeln müssen, um nachzuladen. Dadurch entsteht ein hektischeres Gameplay, da man stets darauf achten muss, genügend Munition zu finden.
 
 ## 4. Realisieren
 
