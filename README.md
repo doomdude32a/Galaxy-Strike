@@ -41,7 +41,7 @@ Die Umsetzung erfolgt im kollaborativen Team unter Einsatz von GitHub und regelm
 | US-9  | muss            | Als Spieler möchte ich, dass neue Gegner gespawnt werden durch Spawns |
 | US-10 | muss            | Als Spieler möchte ich jederzeit meinen Gesundheitsstatus einsehen können, damit der Schaden von Gegnern registriert wird. |
 | US-11 | muss            | Als Spieler möchte ich ein klares Heads-Up-Display, das fortlaufend Informationen wie Gesundheit, Munition |
-| US-12 | muss            | Als Spieler möchte ich im Spiel zusätzliche Waffen erwerben können|
+| US-12 | muss            | Als Spieler möchte ich im Spiel zusätzliche Waffen erwerben/kaufen können|
 | US-13 | muss            | Als Spieler möchte ich Punkte für das Besiegen von Gegnern und das Erreichen von Zielen sammeln. |
 | US-14 | muss            | Als Spieler möchte ich, dass das Spiel eindeutige Endbedingungen bietet (z. B. Sieg bei Erreichen eines Zielpunkts oder Niederlage bei Verlust aller Lebenspunkte), um ein abgerundetes und faires Spielerlebnis zu gewährleisten. |
 
@@ -74,43 +74,48 @@ Die Umsetzung erfolgt im kollaborativen Team unter Einsatz von GitHub und regelm
 ## 2. Planen 
 | AP-№  | Frist       | Zuständig          | Beschreibung                                                                                              | Zugehörige US | Geplante Zeit |
 |-------|------------|---------------------|-----------------------------------------------------------------------------------------------------------|---------------|---------------|
-| 1.A   | 15.11.2025 | Jashari             | Implementierung der Spielerbewegung (vorwärts, rückwärts, seitwärts, Sprint, Sprung)                      | US-1          | 60 min        |
-| 2.A   | 15.11.2025 | Jashari              | Mausgesteuerte Kamera für konsistentes First-Person-Sichtfeld                                            | US-2          | 60 min        |
-| 3.A   | 20.11.2025 | Angelov            | Schwerkraft und Kollisionen exakt simulieren                                                             | US-3          | 90 min        |
-| 4.A   | 20.11.2025 | Angelov           | Level mit Hindernissen, Deckungen und offenen Bereichen gestalten                                        | US-4          | 90 min        |
-| 5.A   | 25.11.2025 | Marku              | Verschiedene Waffen (z.B. Pistole, Gewehr) mit spezifischen Eigenschaften bereitstellen                    | US-5          | 70 min        |
-| 6.A   | 25.11.2025 | Marku/Jashari           | Schüsse präzise registrieren, Nachladevorgang umsetzen und visuelle Effekte integrieren        | US-6          | 60 min        |
-| 7.A   | 30.11.2025 | Jashari            | Gegner mit Lebenspunkten versehen, sodass Treffer ihren Gesundheitszustand beeinflussen                  | US-7          | 60 min        |
-| 8.A   | 30.11.2025 | Angelov, Jashari   | Gegner aktiv auf die Spielerposition reagieren und Angriffe ausführen                                    | US-8          | 90 min        |
-| 9.A   | 05.12.2025 | Marku              | System implementieren, das in  neue Gegner spawnt                                  | US-9          | 60 min        |
-| 10.A  | 05.12.2025 | Marku             | Gesundheitsstatus des Spielers jederzeit einsehbar machen, sodass Schaden korrekt registriert wird       | US-10         | 30 min        |
-| 11.A  | 10.12.2025 | Marku              | Ein klares HUD (Heads-Up-Display) entwickeln, das Gesundheit, Munition und aktuelle Waffe anzeigt         | US-11         | 60 min        |
-| 12.A  | 10.12.2025 | Angelov           | Zusätzliche Waffen erwerbbar machen; Kosten via In-Game-Währung abrechnen                                 | US-12         | 40 min        |
-| 13.A  | 15.12.2025 | Angelov            | Punktesystem einführen, das durch das Besiegen von Gegnern oder Erreichen von Zielen Punkte vergibt       | US-13         | 60 min        |
-| 14.A  | 15.12.2025 | Team               | Eindeutige Endbedingungen (Sieg bei Zielerreichung, Niederlage bei Lebenspunkten = 0) implementieren      | US-14         | 90 min        |
-| 15.A  | 20.12.2025 | Team               | Projektdokumentation fertigstellen                                                                       | -             | 180 min       |
-| 16.A  | 20.12.2025 | Team               | Finale Tests und Debugging durchführen (Gesamtsystem)                                                    | -             | 120 min       |
+| 1.A   | 24.01.2025 | Jashari             | Implementierung der Spielerbewegung (vorwärts, rückwärts, seitwärts, Sprint, Sprung)                      | US-1          | 60 min        |
+| 2.A   |24.01.2025| Jashari              | Mausgesteuerte Kamera für konsistentes First-Person-Sichtfeld                                            | US-2          | 60 min        |
+| 3.A   | 31.01.2025 | Angelov            | Schwerkraft und Kollisionen exakt simulieren                                                             | US-3          | 90 min        |
+| 4.A   | 31.01.2025 | Angelov           | Level mit Hindernissen, Deckungen und offenen Bereichen gestalten                                        | US-4          | 90 min        |
+| 5.A   | 31.01.2025 | Marku              | Verschiedene Waffen (z.B. Pistole, Gewehr) mit spezifischen Eigenschaften bereitstellen                    | US-5          | 70 min        |
+| 6.A   | 31.01.2025/ | Marku/Jashari           | Schüsse präzise registrieren, Nachladevorgang umsetzen und visuelle Effekte integrieren        | US-6          | 60 min        |
+| 7.A   | 28.02.2025| Jashari            | Gegner mit Lebenspunkten versehen, sodass Treffer ihren Gesundheitszustand beeinflussen                  | US-7          | 60 min        |
+| 8.A   | 28.02.2025 | Angelov, Jashari   | Gegner aktiv auf die Spielerposition reagieren und Angriffe ausführen                                    | US-8          | 90 min        |
+| 9.A   | 28.02.2025| Marku              | System implementieren, das in  neue Gegner spawnt                                  | US-9          | 60 min        |
+| 10.A  | 21.02.2025 | Marku             | Gesundheitsstatus des Spielers jederzeit einsehbar machen, sodass Schaden korrekt registriert wird       | US-10         | 30 min        |
+| 11.A  | 21.02.202| Marku              | Ein klares HUD (Heads-Up-Display) entwickeln, das Gesundheit, Munition und aktuelle Waffe anzeigt         | US-11         | 60 min        |
+| 12.A  | 28.01.2025 | Angelov           | Zusätzliche Waffen erwerbbar machen; Kosten via In-Game-Währung abrechnen                                 | US-12         | 40 min        |
+| 13.A  | 21.02.2025 | Angelov            | Punktesystem einführen, das durch das Besiegen von Gegnern oder Erreichen von Zielen Punkte vergibt       | US-13         | 60 min        |
+| 14.A  | 07.02.2025 | Angelov/Jashari             | Eindeutige Endbedingungen (Sieg bei Zielerreichung, Niederlage bei Lebenspunkten = 0) implementieren      | US-14         | 90 min        |
+| 15.A  | 07.02.2025 | Team               | Projektdokumentation fertigstellen                                                                       | -             | 180 min       |
+| 16.A  | 07.02.2025 | Team               | Finale Tests und Debugging durchführen (Gesamtsystem)                                                    | -             | 120 min       |
 
 ## 3. Entscheiden 
 
 ## 4. Realisieren
 
-| **AP-№** | **Datum**    | **Zuständig** | **Geplante Zeit** | **Tatsächliche Zeit** |
-|----------|--------------|---------------|-------------------|-----------------------|
-| AP-1     | 24.01.2025   | Denis         | 60 min            | 60 min                |
-| AP-2     | 24.01.2025   | Denis         | 60 min            | 50 min                |
-| AP-3     | 31.01.2025   | Denis         | 90 min            | 75 min                |
-| AP-4     | 31.01.2025   | Angel         | 120 min           | 110 min               |
-| AP-5     | 31.01.2025   | Erik          | 90 min            | 90 min                |
-| AP-6     | 21.02.2025   | Denis         | 90 min            | 80 min                |
-| AP-7     | 21.02.2025   | Denis         | 60 min            | 60 min                |
-| AP-8     | 21.02.2025   | Denis         | 90 min            | 85 min                |
-| AP-9     | 28.02.2025   | Angel         | 60 min            | 70 min                |
-| AP-10    | 28.02.2025   | Erik          | 60 min            | 55 min                |
-| AP-11    | 28.02.2025   | Erik          | 90 min            | 85 min                |
-| AP-12    | 28.02.2025   | Angel         | 60 min            | 65 min                |
-| AP-13    | 28.02.2025   | Angel         | 120 min           | 130 min               |
-| AP-14    | 01.03.2025   | Team          | 180 min           | 200 min               |
+## 4. Realisieren
+
+| **AP-№** | **Datum**    | **Zuständig**          | **Geplante Zeit** | **Tatsächliche Zeit** |
+|----------|-------------|------------------------|-------------------|-----------------------|
+| 1.A      | 24.01.2025  | Jashari               | 60 min            | -                     |
+| 2.A      | 24.01.2025  | Jashari               | 60 min            | -                     |
+| 3.A      | 31.01.2025  | Angelov               | 90 min            | -                     |
+| 4.A      | 31.01.2025  | Angelov               | 90 min            | -                     |
+| 5.A      | 31.01.2025  | Marku                 | 70 min            | -                     |
+| 6.A      | 31.01.2025  | Marku / Jashari       | 60 min            | -                     |
+| 7.A      | 28.02.2025  | Jashari               | 60 min            | -                     |
+| 8.A      | 28.02.2025  | Angelov, Jashari      | 90 min            | -                     |
+| 9.A      | 28.02.2025  | Marku                 | 60 min            | -                     |
+| 10.A     | 21.02.2025  | Marku                 | 30 min            | -                     |
+| 11.A     | 21.02.2025  | Marku                 | 60 min            | -                     |
+| 12.A     | 28.01.2025  | Angelov               | 90 min            | -                     |
+| 13.A     | 21.02.2025  | Angelov               | 90 min            | -                     |
+| 14.A     | 07.02.2025  | Angelov, Jashari      | 90 min            | -                     |
+| 15.A     | 07.02.2025  | Team                  | 180 min           | -                     |
+| 16.A     | 07.02.2025  | Team                  | 120 min           | -                     |
+
 
 
 
@@ -120,16 +125,19 @@ Die Umsetzung erfolgt im kollaborativen Team unter Einsatz von GitHub und regelm
 
 | **TC-№** | **Datum**    | **Resultat** | **Tester**  | **Verknüpfte US** |
 |----------|-------------|--------------|------------|-------------------|
-| 1.1      | 20.12.2024  | OK           | Marku      | US-1              |
-| 2.1      | 20.12.2024  | OK           | Jashari    | US-2              |
-| 3.1      | 20.12.2024  | OK           | Angelov    | US-3              |
-| 4.1      | 20.12.2024  | OK           | Marku      | US-4              |
-| 5.1      | 20.12.2024  | OK           | Jashari    | US-5              |
-| 6.1      | 20.12.2024  | OK           | Angelov    | US-6              |
-| 7.1      | 20.12.2024  | OK           | Marku      | US-7              |
-| 8.1      | 20.12.2024  | OK           | Jashari    | US-8              |
-| 9.1      | 20.12.2024  | OK           | Angelov    | US-9              |
-| 10.1     | 20.12.2024  | OK           | Marku      | US-10             |
-| 11.1     | 20.12.2024  | OK           | Jashari    | US-11             |
-| 12.1     | 20.12.2024  | OK           | Angelov    | US-12             |
+| 1.1      | 20.12.2025  | OK           | Marku      | US-1              |
+| 2.1      | 20.12.2025  | OK           | Jashari    | US-2              |
+| 3.1      | 20.12.2025  | OK           | Angelov    | US-3              |
+| 4.1      | 20.12.2025  | OK           | Marku      | US-4              |
+| 5.1      | 20.12.2025  | OK           | Jashari    | US-5              |
+| 6.1      | 20.12.2025  | OK           | Angelov    | US-6              |
+| 7.1      | 20.12.2025  | OK           | Marku      | US-7              |
+| 8.1      | 20.12.2025  | OK           | Jashari    | US-8              |
+| 9.1      | 20.12.2025  | OK           | Angelov    | US-9              |
+| 10.1     | 20.12.2025  | OK           | Marku      | US-10             |
+| 11.1     | 20.12.2025  | OK           | Jashari    | US-11             |
+| 12.1     | 20.12.2025  | NOK          | Marku    | US-12             |
+| 13.1     | 20.12.2025  | NOK         | Marku      | US-13             |
+| 14.1     | 20.12.2025  | OK           | Jashari    | US-14             |
+
 
