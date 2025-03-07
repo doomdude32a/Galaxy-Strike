@@ -68,8 +68,8 @@ Die Umsetzung erfolgt im kollaborativen Team unter Einsatz von GitHub und regelm
 
 
 ### 1.4 Diagramme
-![WhatsApp Bild 2025-03-07 um 00 13 27_fb544d1a](https://github.com
-/user-attachments/assets/728a161f-6031-45b2-b2db-58320b5c77be)
+[LA_ILA_0130_Projektantrag (1) (1).docx](https://github.com/user-attachments/files/19127969/LA_ILA_0130_Projektantrag.1.1.docx)
+![Use case](https://github.com/user-attachments/assets/42682358-f284-421e-8529-8c17721ea3b8)
 
 ## 2. Planen 
 | AP-№  | Frist       | Zuständig          | Beschreibung                                                                                              | Zugehörige US | Geplante Zeit |
