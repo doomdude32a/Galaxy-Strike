@@ -84,9 +84,9 @@ Die Umsetzung erfolgt im kollaborativen Team unter Einsatz von GitHub und regelm
 | 8.A   | 28.02.2025 | Angelov, Jashari   | Gegner aktiv auf die Spielerposition reagieren und Angriffe ausführen                                    | US-8          | 90 min        |
 | 9.A   | 28.02.2025| Marku              | System implementieren, das in  neue Gegner spawnt                                  | US-9          | 60 min        |
 | 10.A  | 21.02.2025 | Marku             | Gesundheitsstatus des Spielers jederzeit einsehbar machen, sodass Schaden korrekt registriert wird       | US-10         | 30 min        |
-| 11.A  | 21.02.202| Marku              | Ein klares HUD (Heads-Up-Display) entwickeln, das Gesundheit, Munition und aktuelle Waffe anzeigt         | US-11         | 60 min        |
-| 12.A  | 28.01.2025 | Angelov           | Zusätzliche Waffen erwerbbar machen; Kosten via In-Game-Währung abrechnen                                 | US-12         | 40 min        |
-| 13.A  | 21.02.2025 | Angelov            | Punktesystem einführen, das durch das Besiegen von Gegnern oder Erreichen von Zielen Punkte vergibt       | US-13         | 60 min        |
+| 11.A  | 21.02.202| Marku              | Ein klares HUD (Heads-Up-Display) entwickeln, das Gesundheit, Munition und aktuelle Waffe anzeigt         | US-11         | 90 min        |
+| 12.A  | 28.01.2025 | Angelov           | Zusätzliche Waffen erwerbbar machen; Kosten via In-Game-Währung abrechnen                                 | US-12         | 90 min        |
+| 13.A  | 21.02.2025 | Angelov            | Punktesystem einführen, das durch das Besiegen von Gegnern oder Erreichen von Zielen Punkte vergibt       | US-13         | 90 min        |
 | 14.A  | 07.02.2025 | Angelov/Jashari             | Eindeutige Endbedingungen (Sieg bei Zielerreichung, Niederlage bei Lebenspunkten = 0) implementieren      | US-14         | 90 min        |
 | 15.A  | 07.02.2025 | Team               | Projektdokumentation fertigstellen                                                                       | -             | 180 min       |
 | 16.A  | 07.02.2025 | Team               | Finale Tests und Debugging durchführen (Gesamtsystem)                                                    | -             | 120 min       |
@@ -99,22 +99,22 @@ Die Umsetzung erfolgt im kollaborativen Team unter Einsatz von GitHub und regelm
 
 | **AP-№** | **Datum**    | **Zuständig**          | **Geplante Zeit** | **Tatsächliche Zeit** |
 |----------|-------------|------------------------|-------------------|-----------------------|
-| 1.A      | 24.01.2025  | Jashari               | 60 min            | -                     |
-| 2.A      | 24.01.2025  | Jashari               | 60 min            | -                     |
-| 3.A      | 31.01.2025  | Angelov               | 90 min            | -                     |
-| 4.A      | 31.01.2025  | Angelov               | 90 min            | -                     |
-| 5.A      | 31.01.2025  | Marku                 | 70 min            | -                     |
-| 6.A      | 31.01.2025  | Marku / Jashari       | 60 min            | -                     |
-| 7.A      | 28.02.2025  | Jashari               | 60 min            | -                     |
-| 8.A      | 28.02.2025  | Angelov, Jashari      | 90 min            | -                     |
-| 9.A      | 28.02.2025  | Marku                 | 60 min            | -                     |
-| 10.A     | 21.02.2025  | Marku                 | 30 min            | -                     |
-| 11.A     | 21.02.2025  | Marku                 | 60 min            | -                     |
-| 12.A     | 28.01.2025  | Angelov               | 90 min            | -                     |
-| 13.A     | 21.02.2025  | Angelov               | 90 min            | -                     |
-| 14.A     | 07.02.2025  | Angelov, Jashari      | 90 min            | -                     |
-| 15.A     | 07.02.2025  | Team                  | 180 min           | -                     |
-| 16.A     | 07.02.2025  | Team                  | 120 min           | -                     |
+| 1.A      | 24.01.2025  | Jashari               | 60 min            | 50                     |
+| 2.A      | 24.01.2025  | Jashari               | 60 min            | 100                     |
+| 3.A      | 31.01.2025  | Angelov               | 90 min            | 70                     |
+| 4.A      | 31.01.2025  | Angelov               | 90 min            | 120                     |
+| 5.A      | 31.01.2025  | Marku                 | 70 min            | 60                     |
+| 6.A      | 31.01.2025  | Marku / Jashari       | 60 min            | 80                     |
+| 7.A      | 28.02.2025  | Jashari               | 60 min            | 80                     |
+| 8.A      | 28.02.2025  | Angelov, Jashari      | 90 min            | 70                     |
+| 9.A      | 28.02.2025  | Marku                 | 60 min            | 65                     |
+| 10.A     | 21.02.2025  | Marku                 | 30 min            | 50                     |
+| 11.A     | 21.02.2025  | Marku                 | 90 min            | 100                     |
+| 12.A     | 28.01.2025  | Angelov               | 90 min            | 120                    |
+| 13.A     | 21.02.2025  | Angelov               | 90 min            | 0                     |
+| 14.A     | 07.02.2025  | Angelov, Jashari      | 90 min            | 90                    |
+| 15.A     | 07.02.2025  | Team                  | 180 min           | 120                    |
+| 16.A     | 07.02.2025  | Team                  | 120 min           | 180                   |
 
 
 
