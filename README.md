@@ -83,7 +83,7 @@ Die Umsetzung erfolgt im kollaborativen Team unter Einsatz von GitHub und regelm
 | 6.A   | 31.01.2025/ | Marku/Jashari           | Schüsse präzise registrieren, Nachladevorgang umsetzen und visuelle Effekte integrieren        | US-6          | 60 min        |
 | 7.A   | 28.02.2025| Jashari            | Gegner mit Lebenspunkten versehen, sodass Treffer ihren Gesundheitszustand beeinflussen                  | US-7          | 60 min        |
 | 8.A   | 28.02.2025 | Angelov, Jashari   | Gegner aktiv auf die Spielerposition reagieren und Angriffe ausführen                                    | US-8          | 90 min        |
-| 9.A   | 28.02.2025| Marku              | System implementieren, das in  neue Gegner spawnt                                  | US-9          | 60 min        |
+| 9.A   | 28.02.2025| Angelov, Jashari              | System implementieren, das in  neue Gegner spawnt                                  | US-9          | 60 min        |
 | 10.A  | 21.02.2025 | Marku             | Gesundheitsstatus des Spielers jederzeit einsehbar machen, sodass Schaden korrekt registriert wird       | US-10         | 30 min        |
 | 11.A  | 21.02.202| Marku              | Ein klares HUD (Heads-Up-Display) entwickeln, das Gesundheit, Munition und aktuelle Waffe anzeigt         | US-11         | 90 min        |
 | 12.A  | 28.01.2025 | Angelov           | Zusätzliche Waffen erwerbbar machen; Kosten via In-Game-Währung abrechnen                                 | US-12         | 90 min        |
@@ -107,8 +107,8 @@ Die Umsetzung erfolgt im kollaborativen Team unter Einsatz von GitHub und regelm
 | 5.A      | 31.01.2025  | Marku                 | 70 min            | 60                     |
 | 6.A      | 31.01.2025  | Marku / Jashari       | 60 min            | 80                     |
 | 7.A      | 28.02.2025  | Jashari               | 60 min            | 80                     |
-| 8.A      | 28.02.2025  | Angelov, Jashari      | 90 min            | 70                     |
-| 9.A      | 28.02.2025  | Marku                 | 60 min            | 65                     |
+| 8.A      | 28.02.2025  | Angelov / Jashari      | 90 min            | 70                     |
+| 9.A      | 28.02.2025  | Angelov / Jashari      | 60 min            | 65                     |
 | 10.A     | 21.02.2025  | Marku                 | 30 min            | 50                     |
 | 11.A     | 21.02.2025  | Marku                 | 90 min            | 100                     |
 | 12.A     | 28.01.2025  | Angelov               | 90 min            | 120                    |
