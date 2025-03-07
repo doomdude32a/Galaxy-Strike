@@ -68,7 +68,8 @@ Die Umsetzung erfolgt im kollaborativen Team unter Einsatz von GitHub und regelm
 
 
 ### 1.4 Diagramme
-[LA_ILA_0130_Projektantrag (1) (1).docx](https://github.com/user-attachments/files/19127969/LA_ILA_0130_Projektantrag.1.1.docx)
+
+
 ![Use case](https://github.com/user-attachments/assets/42682358-f284-421e-8529-8c17721ea3b8)
 
 ## 2. Planen 
