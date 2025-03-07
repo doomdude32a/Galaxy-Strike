@@ -74,18 +74,18 @@ Die Umsetzung erfolgt im kollaborativen Team unter Einsatz von GitHub und regelm
 ## 2. Planen 
 | AP-№  | Frist       | Zuständig          | Beschreibung                                                                                              | Zugehörige US | Geplante Zeit |
 |-------|------------|---------------------|-----------------------------------------------------------------------------------------------------------|---------------|---------------|
-| 1.A   | 15.11.2025 | Marku              | Implementierung der Spielerbewegung (vorwärts, rückwärts, seitwärts, Sprint, Sprung)                      | US-1          | 60 min        |
-| 2.A   | 15.11.2025 | Marku              | Mausgesteuerte Kamera für konsistentes First-Person-Sichtfeld                                            | US-2          | 60 min        |
+| 1.A   | 15.11.2025 | Jashari             | Implementierung der Spielerbewegung (vorwärts, rückwärts, seitwärts, Sprint, Sprung)                      | US-1          | 60 min        |
+| 2.A   | 15.11.2025 | Jashari              | Mausgesteuerte Kamera für konsistentes First-Person-Sichtfeld                                            | US-2          | 60 min        |
 | 3.A   | 20.11.2025 | Angelov            | Schwerkraft und Kollisionen exakt simulieren                                                             | US-3          | 90 min        |
-| 4.A   | 20.11.2025 | Jashari            | Level mit Hindernissen, Deckungen und offenen Bereichen gestalten                                        | US-4          | 90 min        |
+| 4.A   | 20.11.2025 | Angelov           | Level mit Hindernissen, Deckungen und offenen Bereichen gestalten                                        | US-4          | 90 min        |
 | 5.A   | 25.11.2025 | Marku              | Verschiedene Waffen (z.B. Pistole, Gewehr) mit spezifischen Eigenschaften bereitstellen                    | US-5          | 70 min        |
-| 6.A   | 25.11.2025 | Angelov            | Schüsse präzise registrieren, Nachladevorgang umsetzen und visuelle/akustische Effekte integrieren        | US-6          | 60 min        |
+| 6.A   | 25.11.2025 | Marku/Jashari           | Schüsse präzise registrieren, Nachladevorgang umsetzen und visuelle Effekte integrieren        | US-6          | 60 min        |
 | 7.A   | 30.11.2025 | Jashari            | Gegner mit Lebenspunkten versehen, sodass Treffer ihren Gesundheitszustand beeinflussen                  | US-7          | 60 min        |
 | 8.A   | 30.11.2025 | Angelov, Jashari   | Gegner aktiv auf die Spielerposition reagieren und Angriffe ausführen                                    | US-8          | 90 min        |
-| 9.A   | 05.12.2025 | Marku              | System implementieren, das in regelmäßigen Abständen neue Gegner spawnt                                  | US-9          | 60 min        |
-| 10.A  | 05.12.2025 | Denis              | Gesundheitsstatus des Spielers jederzeit einsehbar machen, sodass Schaden korrekt registriert wird       | US-10         | 30 min        |
+| 9.A   | 05.12.2025 | Marku              | System implementieren, das in  neue Gegner spawnt                                  | US-9          | 60 min        |
+| 10.A  | 05.12.2025 | Marku             | Gesundheitsstatus des Spielers jederzeit einsehbar machen, sodass Schaden korrekt registriert wird       | US-10         | 30 min        |
 | 11.A  | 10.12.2025 | Marku              | Ein klares HUD (Heads-Up-Display) entwickeln, das Gesundheit, Munition und aktuelle Waffe anzeigt         | US-11         | 60 min        |
-| 12.A  | 10.12.2025 | Jashari            | Zusätzliche Waffen erwerbbar machen; Kosten via In-Game-Währung abrechnen                                 | US-12         | 40 min        |
+| 12.A  | 10.12.2025 | Angelov           | Zusätzliche Waffen erwerbbar machen; Kosten via In-Game-Währung abrechnen                                 | US-12         | 40 min        |
 | 13.A  | 15.12.2025 | Angelov            | Punktesystem einführen, das durch das Besiegen von Gegnern oder Erreichen von Zielen Punkte vergibt       | US-13         | 60 min        |
 | 14.A  | 15.12.2025 | Team               | Eindeutige Endbedingungen (Sieg bei Zielerreichung, Niederlage bei Lebenspunkten = 0) implementieren      | US-14         | 90 min        |
 | 15.A  | 20.12.2025 | Team               | Projektdokumentation fertigstellen                                                                       | -             | 180 min       |
