@@ -7,7 +7,7 @@ FPS shooting game in Unity.
 | Angelov     | Angel    | Im22d  |
 | Marku       | Erik     | Im22d  |
 | Jashari     | Denis    | Im22d  |
-
+### 1.1 Projektbeschreibung
 **Versionshistorie**
 1.1 Projektbeschreibung
 Wir entwickeln den First-Person-Shooter "FPS Advanced Combat" in der Unity-Engine, einem fuehrenden Tool fuer die Spieleentwicklung. Das Spiel bietet dem Spieler ein immersives Erlebnis in einer realistischen 3D-Umgebung, in der er gegen computergesteuerte Gegner antritt. Ziel des Projekts ist es, ein technisch anspruchsvolles und spannendes Spielerlebnis zu schaffen.
@@ -21,7 +21,7 @@ Waffensystem: Integration verschiedener Waffenmodelle mit individuellen Eigensch
 Gegner und KI: Entwicklung einer Gegner-KI, die den Spieler verfolgt, angreift und bei Treffern visuelles Feedback gibt.
 Spielmechaniken & Interface: Implementierung eines HUDs, eines Gesundheitssystems fuer den Spieler und klar definierter Endbedingungen (Sieg/Niederlage).
 Die Umsetzung erfolgt im kollaborativen Team unter Einsatz von GitHub und regelmaessigen Online-Meetings, wobei eine modulare und strukturierte Vorgehensweise (IPERKA) den Entwicklungsprozess unterstuetzt.
-
+### 1.2 Testfälle
 # User Stories
 
 | US-№ | Verbindlichkeit | Beschreibung |
@@ -56,6 +56,9 @@ Die Umsetzung erfolgt im kollaborativen Team unter Einsatz von GitHub und regelm
 | 1.11     | Spieler im Waffen-Shop                | Spieler initiiert den Kauf einer zusätzlichen Waffe          | Preis wird von der In-Game-Währung abgezogen; Waffe erscheint im Inventar                       | US-11             |
 | 1.12     | Spieler erzielt Erfolge im Kampf      | Spieler besiegt Gegner bzw. erreicht ein Ziel                | Punkte werden korrekt addiert und der Fortschritt im Punktesystem aktualisiert                  | US-12             |
 
+### 1.4 Diagramme
+![WhatsApp Bild 2025-03-07 um 00 13 27_fb544d1a](https://github.com/user-attachments/assets/728a161f-6031-45b2-b2db-58320b5c77be)
+
 ## 2. Planen
 
 | AP-№  | Frist       | Zuständig | Beschreibung                                                                                             | Zugehörige US | Geplante Zeit |
@@ -74,6 +77,7 @@ Die Umsetzung erfolgt im kollaborativen Team unter Einsatz von GitHub und regelm
 | 12.A  | 06.12.2024  | Angelov   | **Punktesystem**: Punktevergabe bei Gegnerabschüssen und Zielerreichung, Fortschritt tracken           | US-12         | 60 min        |
 | 13.A  | 13.12.2024  | Team      | **Abschließende Tests und Debugging**: Integrationstests aller Module                                  | -             | 120 min       |
 | 14.A  | 20.12.2024  | Team      | **Projektdokumentation** fertigstellen und finale Übergabe vorbereiten                                 | -             | 180 min       |
+## 4. Entscheiden 
 
 
 
